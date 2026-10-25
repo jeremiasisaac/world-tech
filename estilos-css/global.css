@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/**Global config / phone **/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../photos/telefoni.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    background-color: hsla(0, 0%, 12%, 0.217);
+    height: 20px;
+    padding: 10px;
+}
+
+header>h1 {
+    font-size: 1.1em;
+    color: #ffffffac;
+}
+
+
+#paralinkes {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+nav>ul {
+    display: block;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    font-size: 1em;
+}
+
+button {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: transparent; 
+    border: none;
+
+}
+
+nav {
+    display: none;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+nav>ul>li:hover {
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 10px;
+}
+
+#principaltech{
+    width: 258px;
+    height: auto;
+    margin-left: 4px;
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+
+
+}
+
+main>h1{
+    font-size: 2.5em;
+    text-shadow: 10px 5px 10px #808080aa;
+}
+
+main>p{
+    text-indent: 10px;
+    padding-bottom: 10px;
+}
+
+main>h2{
+    font-size: 1.4em;
+}
